@@ -71,6 +71,7 @@ int main() {
     node *tree;
     tree = create_tree();
     cout << "\n\n";
+    cout << "Tree\n";
     print_tree(tree);
     find_parents_with_odd_children(tree);
     if(len_arr){
